@@ -140,7 +140,7 @@ li:hover p {
     align-items: start;
     justify-content: start;
 }
-.god-image {
+.god-img {
     display: flex;
     height: auto;
     width: 500px;
@@ -149,7 +149,7 @@ li:hover p {
     justify-content: start;
 }
 
-.god-image img {
+.god-img img {
     width: 450px;
     height: auto;
     border-radius: 20px;
@@ -264,13 +264,13 @@ li:hover p {
         align-items: center;
     }
 
-    .god-image {
+    .god-img {
         align-items: center;
         justify-content: center;
         padding: 0;
         max-width: 90%;
     }
-    .god-image img {
+    .god-img img {
         width: 300px;
         height: auto;
     }

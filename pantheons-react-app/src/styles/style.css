@@ -58,6 +58,12 @@ header {
 .hamburger {
     display: none;
 }
+#hamburger-content {
+    display: none;
+}
+#hamburger-content.open {
+    display: flex;
+}
 
 main {
     width: 100%;
@@ -112,7 +118,7 @@ li:hover p {
     height: 350px;
     top: 50px;
     width: 100%;
-    background-image: url('img/stars.jpeg');
+    background-image: url('/public/img/stars.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -123,7 +129,7 @@ li:hover p {
     width: 80%;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     color: var(--white);
     padding-bottom: 100px;
 }
@@ -155,11 +161,16 @@ li:hover p {
     transition: all 0.1s ease-in;
 }
 
+.main-info a {
+    text-decoration: none;
+    width: auto;
+}
+
 .action-button {
     margin-top: 20px;
     display: flex;
     height: auto;
-    width: 40%;
+    width: 450px;
     padding: 5px 30px;
     flex-direction: row;
     align-items: center;
@@ -234,7 +245,6 @@ li:hover p {
     }
 
     .hamburger ul {
-        display: none;
         flex-direction: column;
         margin-left: 20px;
         padding: 0;
