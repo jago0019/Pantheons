@@ -135,6 +135,16 @@ li:hover p {
     justify-content: center;
 }
 
+#egyptian-banner {
+    background-image: url(/public/img/egyptian-gods.webp);
+}
+#norse-banner {
+    background-image: url(/public/img/norse-gods.png);
+}
+#greek-banner {
+    background-image: url(/public/img/greekgods.jpeg);
+}
+
 .subpage-banner h1 {
     color: var(--white);
     text-align: center;
