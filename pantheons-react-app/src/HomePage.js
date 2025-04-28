@@ -31,11 +31,11 @@ class HomePage extends Component {
                             <h3>Greek Pantheon</h3>
                             <img src="svg/Greek.svg" alt="greek pillar" />
                         </div></Link>
-                        <Link to="egyptian"><div className="action-button" id="third-button">
+                        <Link to="/egyptian"><div className="action-button" id="third-button">
                             <h3>Egyptian Pantheon</h3>
                             <img src="svg/egyptian.svg" alt="egyptian cross" />
                         </div></Link>
-                        <div className="random-button" id="random-button">
+                        <div className="random-button" id="random-button" onClick={this.navigateToRandom}>
                             <h3>⚡ Not sure where to start?</h3>
                         </div>
                     </div>
@@ -44,6 +44,13 @@ class HomePage extends Component {
             </div>
         );
     }
+    
+    navigateToRandom = () => {
+        const pantheons = ['/norse', '/greek', '/egyptian'];
+        const randomPantheon = pantheons[Math.floor(Math.random() * pantheons.length)];
+        window.location.href = randomPantheon;
+    }
 }
+
 
 export default HomePage;
