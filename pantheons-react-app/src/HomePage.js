@@ -25,15 +25,15 @@ class HomePage extends Component {
                         </p>
                         <Link to="/norse"><div className="action-button" id="first-button">
                             <h3>Norse Pantheon</h3>
-                            <img src="svg/Valknut.svg" alt="valknut" />
+                            <img src="/svg/Valknut.svg" alt="valknut" />
                         </div></Link>
                         <Link to="/greek"><div className="action-button" id="second-button">
                             <h3>Greek Pantheon</h3>
-                            <img src="svg/Greek.svg" alt="greek pillar" />
+                            <img src="/svg/Greek.svg" alt="greek pillar" />
                         </div></Link>
                         <Link to="/egyptian"><div className="action-button" id="third-button">
                             <h3>Egyptian Pantheon</h3>
-                            <img src="svg/egyptian.svg" alt="egyptian cross" />
+                            <img src="/svg/egyptian.svg" alt="egyptian cross" />
                         </div></Link>
                         <div className="random-button" id="random-button" onClick={this.navigateToRandom}>
                             <h3>⚡ Not sure where to start?</h3>
@@ -44,7 +44,7 @@ class HomePage extends Component {
             </div>
         );
     }
-    
+
     navigateToRandom = () => {
         const pantheons = ['/norse', '/greek', '/egyptian'];
         const randomPantheon = pantheons[Math.floor(Math.random() * pantheons.length)];
