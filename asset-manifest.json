@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Pantheons/static/css/main.61bcc757.css",
+    "main.js": "/Pantheons/static/js/main.1e8043b0.js",
+    "static/media/norse-gods.png": "/Pantheons/static/media/norse-gods.21c060034ddffc376865.png",
+    "static/media/egyptian-gods.webp": "/Pantheons/static/media/egyptian-gods.5fd8379d6965f6388d56.webp",
+    "static/media/greekgods.jpeg": "/Pantheons/static/media/greekgods.ed15e03c137a92dbb413.jpeg",
+    "static/media/stars.jpeg": "/Pantheons/static/media/stars.dd89fc4529766dd29689.jpeg",
+    "index.html": "/Pantheons/index.html",
+    "main.61bcc757.css.map": "/Pantheons/static/css/main.61bcc757.css.map",
+    "main.1e8043b0.js.map": "/Pantheons/static/js/main.1e8043b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61bcc757.css",
+    "static/js/main.1e8043b0.js"
+  ]
+}
